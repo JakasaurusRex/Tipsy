@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		848F02BC2859595500403522 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F02BB2859595500403522 /* AppDelegate.m */; };
 		848F02BF2859595500403522 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F02BE2859595500403522 /* SceneDelegate.m */; };
-		848F02C22859595500403522 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F02C12859595500403522 /* ViewController.m */; };
 		848F02C52859595500403522 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F02C32859595500403522 /* Main.storyboard */; };
 		848F02C72859595500403522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848F02C62859595500403522 /* Assets.xcassets */; };
 		848F02CA2859595500403522 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F02C82859595500403522 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,7 @@
 		848F02D72859595600403522 /* TipsyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F02D62859595600403522 /* TipsyTests.m */; };
 		848F02E12859595600403522 /* TipsyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F02E02859595600403522 /* TipsyUITests.m */; };
 		848F02E32859595600403522 /* TipsyUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F02E22859595600403522 /* TipsyUITestsLaunchTests.m */; };
+		848F02F12859604300403522 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F02F02859604300403522 /* TipViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C3CDEB4F90FDAEC66D51258 /* Pods-Tipsy-TipsyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipsy-TipsyUITests.release.xcconfig"; path = "Target Support Files/Pods-Tipsy-TipsyUITests/Pods-Tipsy-TipsyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		848F02B72859595500403522 /* Tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848F02BA2859595500403522 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		848F02BB2859595500403522 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		848F02BD2859595500403522 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		848F02BE2859595500403522 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		848F02C02859595500403522 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		848F02C12859595500403522 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		848F02C42859595500403522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		848F02C62859595500403522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		848F02C92859595500403522 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +53,13 @@
 		848F02DC2859595600403522 /* TipsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848F02E02859595600403522 /* TipsyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsyUITests.m; sourceTree = "<group>"; };
 		848F02E22859595600403522 /* TipsyUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipsyUITestsLaunchTests.m; sourceTree = "<group>"; };
+		848F02EF2859604300403522 /* TipViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		848F02F02859604300403522 /* TipViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		ABC094856E94B7D2B26D29A6 /* Pods-Tipsy-TipsyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipsy-TipsyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tipsy-TipsyUITests/Pods-Tipsy-TipsyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C010D466431D54E6B34E2E34 /* Pods-Tipsy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipsy.release.xcconfig"; path = "Target Support Files/Pods-Tipsy/Pods-Tipsy.release.xcconfig"; sourceTree = "<group>"; };
+		C02E578DEBFD28C43223602F /* Pods-Tipsy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipsy.debug.xcconfig"; path = "Target Support Files/Pods-Tipsy/Pods-Tipsy.debug.xcconfig"; sourceTree = "<group>"; };
+		E725912605B2BC35FDB53E27 /* Pods-TipsyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipsyTests.debug.xcconfig"; path = "Target Support Files/Pods-TipsyTests/Pods-TipsyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAF647F94F945DD9CC5BF723 /* Pods-TipsyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipsyTests.release.xcconfig"; path = "Target Support Files/Pods-TipsyTests/Pods-TipsyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2696AE7BCC03245ACB8BBA07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		801292891897EFBA4CB4BCAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C02E578DEBFD28C43223602F /* Pods-Tipsy.debug.xcconfig */,
+				C010D466431D54E6B34E2E34 /* Pods-Tipsy.release.xcconfig */,
+				ABC094856E94B7D2B26D29A6 /* Pods-Tipsy-TipsyUITests.debug.xcconfig */,
+				3C3CDEB4F90FDAEC66D51258 /* Pods-Tipsy-TipsyUITests.release.xcconfig */,
+				E725912605B2BC35FDB53E27 /* Pods-TipsyTests.debug.xcconfig */,
+				EAF647F94F945DD9CC5BF723 /* Pods-TipsyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		848F02AE2859595500403522 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +114,8 @@
 				848F02D52859595600403522 /* TipsyTests */,
 				848F02DF2859595600403522 /* TipsyUITests */,
 				848F02B82859595500403522 /* Products */,
+				801292891897EFBA4CB4BCAC /* Pods */,
+				2696AE7BCC03245ACB8BBA07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,9 +136,9 @@
 				848F02BB2859595500403522 /* AppDelegate.m */,
 				848F02BD2859595500403522 /* SceneDelegate.h */,
 				848F02BE2859595500403522 /* SceneDelegate.m */,
-				848F02C02859595500403522 /* ViewController.h */,
-				848F02C12859595500403522 /* ViewController.m */,
 				848F02C32859595500403522 /* Main.storyboard */,
+				848F02EF2859604300403522 /* TipViewController.h */,
+				848F02F02859604300403522 /* TipViewController.m */,
 				848F02C62859595500403522 /* Assets.xcassets */,
 				848F02C82859595500403522 /* LaunchScreen.storyboard */,
 				848F02CB2859595500403522 /* Info.plist */,
@@ -143,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848F02E62859595600403522 /* Build configuration list for PBXNativeTarget "Tipsy" */;
 			buildPhases = (
+				554A3C06818D360DE7341371 /* [CP] Check Pods Manifest.lock */,
 				848F02B32859595500403522 /* Sources */,
 				848F02B42859595500403522 /* Frameworks */,
 				848F02B52859595500403522 /* Resources */,
@@ -160,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848F02E92859595600403522 /* Build configuration list for PBXNativeTarget "TipsyTests" */;
 			buildPhases = (
+				0E6A4BD74DCE15C4A6BD5A59 /* [CP] Check Pods Manifest.lock */,
 				848F02CE2859595600403522 /* Sources */,
 				848F02CF2859595600403522 /* Frameworks */,
 				848F02D02859595600403522 /* Resources */,
@@ -178,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848F02EC2859595600403522 /* Build configuration list for PBXNativeTarget "TipsyUITests" */;
 			buildPhases = (
+				04D8A458DFF80F338F5609B3 /* [CP] Check Pods Manifest.lock */,
 				848F02D82859595600403522 /* Sources */,
 				848F02D92859595600403522 /* Frameworks */,
 				848F02DA2859595600403522 /* Resources */,
@@ -261,14 +292,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04D8A458DFF80F338F5609B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tipsy-TipsyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0E6A4BD74DCE15C4A6BD5A59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TipsyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		554A3C06818D360DE7341371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tipsy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		848F02B32859595500403522 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848F02C22859595500403522 /* ViewController.m in Sources */,
 				848F02BC2859595500403522 /* AppDelegate.m in Sources */,
 				848F02CD2859595500403522 /* main.m in Sources */,
+				848F02F12859604300403522 /* TipViewController.m in Sources */,
 				848F02BF2859595500403522 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +537,7 @@
 		};
 		848F02E72859595600403522 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02E578DEBFD28C43223602F /* Pods-Tipsy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +565,7 @@
 		};
 		848F02E82859595600403522 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C010D466431D54E6B34E2E34 /* Pods-Tipsy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +593,7 @@
 		};
 		848F02EA2859595600403522 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E725912605B2BC35FDB53E27 /* Pods-TipsyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +612,7 @@
 		};
 		848F02EB2859595600403522 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAF647F94F945DD9CC5BF723 /* Pods-TipsyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +631,7 @@
 		};
 		848F02ED2859595600403522 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC094856E94B7D2B26D29A6 /* Pods-Tipsy-TipsyUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -543,6 +648,7 @@
 		};
 		848F02EE2859595600403522 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3CDEB4F90FDAEC66D51258 /* Pods-Tipsy-TipsyUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
